@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from SRC.data_loader import load_diabetes_data
+from src.data_loader import load_diabetes_data
 
 app = FastAPI()
 
